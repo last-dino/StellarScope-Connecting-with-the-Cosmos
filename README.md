@@ -1,56 +1,43 @@
-# Your Project Name Here
+# StellarScope: Connecting with the Cosmos
 
-**HERE IS A GUIDE TO GET YOU STARTED ON YOUR [MAYBE] FIRST REPOSITORY**:
+**Description**:
 
-<https://docs.codeberg.org/getting-started/first-repository/#2.-clone-the-repository>
+StellarScope is an immersive, interactive VR astronomy lesson for beginners. Players learn about convex, flat, and concave lenses, and how telescopes use lenses to bend light and magnify images. Players can connect the individual components to assemble a telescope. By looking through this telescope, players can view and learn about the constellations.
 
-Obviously, this is not what your README should say on-submission. Change it. Yes, the whole thing.
+StellarScope can be used on a Meta Quest 2 or Meta Quest 3 headset.
 
-This is where a description of your project will go. README.md files support [Markdown syntax](https://www.markdownguide.org/basic-syntax/).
+## How to Install and Run
 
-## Setup
+**Open the terminal on your computer**.
 
-**Oh yeah, by the way, don't forget to set up `git lfs` on your machine.**
+Clone this repository:
 
-Tell everyone what your project needs in order to run. This might involve many components or software. Maybe some cool libraries?
+`git clone https://codeberg.org/reality-hack-2024/TABLE_52.git`
 
-### Hardware Required
+Navigate to the project directory:
 
-- Some polyphonic headset on OS version `3.14159265358979323846233832795028841971` with room-temperature hyperconductors
-- Some macrocontroller with specific hardware revision `4.2`
-  - With tank wheels
-- Some computer with a holoported underdisplay cap
-- Some fancy smart device that is worn and knows your favorite toothpaste
+`cd TABLE_52`
 
-### Software Dependencies
+Make sure you have Unity3D installed. Open the project in Unity and let it automatically resolve and install any dependencies.
 
-- Division Game Engine version `2024.1.26`
-- Michaelsoft Binbows `XD`
+Ensure that your VR headset is connected and properly set up.
 
-## Run
+Configure VR Settings:
 
-1. Open the thing
-   - You know, that thing over there
-     - No, not that one
-     - Go back
-     - Yes, that one
-2. Click the button and type the following text:
+In Unity, go to `Edit -> Project Settings -> Player`. Under the XR Settings tab, make sure the appropriate VR SDKs are selected based on your VR headset.
 
-```shell
-# install the sotware
-sudo apt install -y cmatrix
-# run the trap
-cmatrix
-```
+Build the Game:
 
-3. After the process completes and you don't even see the code, anymore, you are ready. Here is what it looks like:
+Go to `File -> Build Settings` and select your target platform. Click on `Build and Run` to generate the executable file for your VR headset.
 
-```js
-"b" + "a" + +"a" + "a"; // 'baNaNa'
-```
+### How to Use
 
-## Shout-Outs
+Once in the game, use controllers to interact with lenses and different parts of the telescope. When looking through the telescope, move your head to learn more about the constellations.
 
-Or is it "shouts-out?"
+### Credits
 
-We would like to thank our favorite mentor, ece3603a-7f91-4b20-b29f-54a3d0694d0b for all of their hard work. This project would not have been possible without you.
+StellarScope was created by Mollie Johnson, Carlos Mendez, Clara Ma, Xinyi (Luna) Xu, and Ziwei (Tainy) Xu for the MIT Reality Hack 2024.
+
+## License
+
+This project is freely available under a Creative Commons license.
