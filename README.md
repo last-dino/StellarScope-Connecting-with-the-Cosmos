@@ -1,5 +1,8 @@
 # StellarScope: Connecting with the Cosmos
 
+
+**Demo Video**: (https://youtu.be/fcUQ94nYcw8)
+
 **Description**:
 
 StellarScope is an immersive, interactive VR astronomy lesson for beginners. Players learn about convex, flat, and concave lenses, and how telescopes use lenses to bend light and magnify images. Players can connect the individual components to assemble a telescope. By looking through this telescope, players can view and learn about the constellations.
